@@ -17,6 +17,10 @@ body{
   
 }
 
+.main-container{
+  margin:0;
+  padding:1em;
+}
 /*
 HEADER AND NAVIGATION
 */
