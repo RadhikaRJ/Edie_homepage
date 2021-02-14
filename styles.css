@@ -1,24 +1,29 @@
 
 
-/* *,
+:root{
+  --background:white;
+}
+
+*,
 *::before,
 *::after{
 
   box-sizing: border-box;
-} */
+}
 
 body{
   margin:0;
   
 }
 header{
-  background-color: rgb(5, 18, 24);
+  background-color:var(--background);
   border: 2px solid orange;
   text-align: center;
   position: fixed;
   z-index:999;
   width:100%;
-  color:white;
+  
+  
 }
 
 nav{
@@ -27,6 +32,8 @@ nav{
  text-align: left;
  top:100%;
  left:0;
+ background-color: var(--background);
+ width: 100%;;
 }
 
 nav ul{
@@ -36,7 +43,19 @@ nav ul{
   list-style: none; 
 }
 
-nav ul li{
+nav li{
   border: 2px solid cyan;
+  margin-left:1em;
+  margin-bottom:1em;
+}
+
+nav a{
   
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:1.2rem;
+}
+
+nav a:hover{
+ 
 }
