@@ -24,6 +24,9 @@ header{
 nav{
  position:absolute;
  border: 2px solid green;
+ text-align: left;
+ top:100%;
+ left:0;
 }
 
 nav ul{
