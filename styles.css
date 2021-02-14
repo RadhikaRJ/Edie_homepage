@@ -1,18 +1,38 @@
 
 
-nav{
-  display:flex;
+/* *,
+*::before,
+*::after{
+
+  box-sizing: border-box;
+} */
+
+body{
+  margin:0;
   
-  border: 2px solid green;
+}
+header{
+  background-color: rgb(5, 18, 24);
+  border: 2px solid orange;
+  text-align: center;
+  position: fixed;
+  z-index:999;
+  width:100%;
+  color:white;
+}
+
+nav{
+ position:absolute;
+ border: 2px solid green;
 }
 
 nav ul{
   border: 2px solid red;
-  list-style: none;
-  display:flex;
+  
  
 }
 
 nav ul li{
-  padding:1em;
+  border: 2px solid cyan;
+  
 }
